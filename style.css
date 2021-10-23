@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Varela+Round&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(16, 14, 25);
+  font-family: "Varela Round", sans-serif;
+}
+.head {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#link {
+  color: rgb(89, 89, 201);
+}
+.groom a {
+  color: rgb(252, 6, 252);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0px;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(252, 6, 252);
+  text-decoration: none;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.skill label {
+  cursor: pointer;
+  margin: 15px;
+}
+.cont input {
+  cursor: pointer;
+  background-color: rgb(89, 21, 151);
+}
+.cont {
+  background-color: rgb(89, 21, 151);
+  border-radius: 1rem;
+  margin: 2px;
+  padding: 1px;
+}
+.groom h4 {
+  margin-top: 0px;
+}
+.form {
+  color: white;
+}
+.form h2 {
+  font-family: "Pacifico", cursive;
+  padding-top: 0rem;
+  text-align: center;
+  font-size: 46px;
+  margin: 2rem;
+}
+
+.form h3 {
+  font-size: 23px;
+  margin: 15px 0px;
+}
+.form p {
+  display: inline;
+  font-size: 23px;
+  margin: 15px 0px;
+}
+i {
+  cursor: pointer;
+}
+.main {
+  text-align: center;
+  margin: 0em auto;
+  width: 700px;
+  padding: 1em 1em 0.5em 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+}
+#price {
+  text-align: left;
+}
+button {
+  font-family: "Pacifico", cursive;
+  display: block;
+  color: white;
+  margin: 15px auto;
+  background-color: #4caf50;
+  border: 1px solid #ccc;
+  border-radius: 5em;
+  text-decoration: none;
+  font-size: 26px;
+  padding: 10px 7rem;
+  cursor: pointer;
+}
+select {
+  padding: 5px 10px;
+  background-color: rgb(89, 21, 151);
+  border-radius: 1em;
+  color: white;
+  font-size: 16px;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.rep {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: px;
+}
+.rep label {
+  cursor: pointer;
+  margin: auto;
+  padding: 15px;
+}
+.rep .cont {
+  padding: 0px 5px;
+}
