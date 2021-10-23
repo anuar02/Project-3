@@ -67,4 +67,12 @@ document.querySelector(".calc").addEventListener("click", function () {
     document.querySelector("body").style.backgroundColor = "#327034";
     setTimeout(alert.bind(null, "Cangrats the price is " + result + "!"));
   }
+  if (skilll.length === 0) {
+    document.getElementById("skillChosen").innerHTML =
+      "Your bride/groom has no skills!";
+  }
+  if (rep.length === 0) {
+    document.getElementById("repChosen").innerHTML =
+      "Your bride/groom has good reputation!";
+  }
 });
