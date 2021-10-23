@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/style/style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="form">
+      <div class="head">
+        <h2>Calculate your Bride!</h2>
+        <i class="fa fa-refresh" style="font-size: 36px"></i>
+      </div>
+      <div class="groom">
+        <a href="groomq.html"><h4>Calculate your groom</h4></a>
+      </div>
+      <form action="" class="main">
+        <h3>Education</h3>
+
+        <select name="edu" id="edu">
+          <option value="1.5">Undergraduate degree</option>
+          <option value="1.2">College degree</option>
+          <option value="1.05">High school degree</option>
+          <option value="0.9">Middle school degree</option>
+        </select>
+
+        <h3>Family net worth</h3>
+        <select name="fnw" id="fnw">
+          <option value="2">More than 10,000$</option>
+          <option value="1.5">Between 5,000$ and 10,000$</option>
+          <option value="1.2">Less than 5,000$</option>
+        </select>
+
+        <h3>Caste</h3>
+        <select name="caste" id="caste">
+          <option value="100">Brahmin</option>
+          <option value="50">Kshatriya</option>
+          <option value="20">Vaishya</option>
+          <option value="10">Shudra</option>
+          <option value="-50">Varna - untouchable</option>
+        </select>
+
+        <h3>Skills</h3>
+        <div class="skill" id="skill">
+          <div class="cont">
+            <input
+              type="checkbox"
+              id="music"
+              name="skill"
+              value="10"
+              class="skill1"
+            />
+            <label for="music">Musical instrument</label><br />
+          </div>
+          <div class="cont">
+            <input
+              type="checkbox"
+              id="cook"
+              name="skill"
+              value="20"
+              class="skill2"
+            />
+            <label for="cook">Good cook</label><br />
+          </div>
+          <div class="cont">
+            <input
+              type="checkbox"
+              id="char"
+              name="skill"
+              value="15"
+              class="skill3"
+            />
+            <label for="char">Easygoing character</label><br />
+          </div>
+          <div class="cont">
+            <input
+              type="checkbox"
+              id="sing"
+              name="skill"
+              value="10"
+              class="skill4"
+            />
+            <label for="sing">Sings well</label><br />
+          </div>
+        </div>
+
+        <h3>Age</h3>
+        <div name="age" id="age">
+          <input type="radio" id="18-23" name="age" value="1.5" />
+          <label for="18-23">Between 18-23</label>
+
+          <input type="radio" id="24-27" value="1.2" name="age" />
+          <label for="24-27">Between 24-27</label>
+
+          <input type="radio" id="28+" value="0.95" name="age" />
+          <label for="28+">28+</label>
+        </div>
+
+        <h3>Reputation</h3>
+
+        <div class="rep" id="rep">
+          <div class="cont">
+            <input type="checkbox" id="rep1" name="rep" value="0.85" />
+            <label for="rep1">Gossips about her parent's attitude</label><br />
+          </div>
+          <div class="cont">
+            <input type="checkbox" id="rep2" name="rep" value="0.9" />
+            <label for="rep2">Gossips about her character</label><br />
+          </div>
+          <div class="cont">
+            <input type="checkbox" id="rep3" name="rep" value="-20" />
+            <label for="rep3">General gossips around her person</label><br />
+          </div>
+        </div>
+        <button type="button" class="calc">Calculate</button>
+        <p>The price is:</p>
+        <p id="price">100</p>
+        <p>$</p>
+      </form>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
